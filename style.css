@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: monospace;
+  font-size: 1.125rem;
+}
+
+.container {
+  background-color: #ccc;
+  border-radius: 8px;
+  max-width: 400px;
+  padding: 2rem;
+  margin: 100px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+h1 {
+  text-align: center;
+}
