@@ -4,7 +4,7 @@ const SpeechRecognition =
 const rec = new SpeechRecognition();
 
 rec.lang = "en-US";
-rec.continuous = false;
+rec.continuous = true;
 
 rec.onresult = function (e) {
   const acceptedColors = [
